@@ -1,0 +1,392 @@
+<resources>
+    <!-- Splash -->
+    <string name="SPLASH_TEXT_PROGESS_LOADING">Loading:</string>
+
+    <!-- Login -->
+    <string name="LOGIN_TEXT_WELCOME">WELCOME.</string>
+    <string name="LOGIN_TEXT_INSTRUCTION">PLEASE LOGIN.</string>
+    <string name="LOGIN_TEXT_FORGOT_PASSWORD">Forgot password?</string>
+    <string name="LOGIN_FIELD_USERNAME">Username or e-mail</string>
+    <string name="LOGIN_FIELD_PASSWORD">Password</string>
+    <string name="LOGIN_CHECKBOX_REMEMBER">REMEMBER ME.</string>
+    <string name="LOGIN_BUTTON_LOGIN">LOG IN</string>
+    <string name="LOGIN_FORGOT_USERNAME">Please enter your username to set a new password</string>
+    <string name="LOGIN_FORGOT_VERIFICATION">The verification code is sent by %1$s to %2$s. Please enter the code and a new password.</string>
+    <string name="LOGIN_FORGOT_BUTTON_NEXT">NEXT</string>
+    <string name="LOGIN_FORGOT_BUTTON_DONE">DONE</string>
+    <string name="LOGIN_FORGOT_BUTTON_OK">OK</string>
+    <string name="LOGIN_FORGOT_FIELD_VERIFICATION">Verification code</string>
+    <string name="LOGIN_FORGOT_FIELD_PASSWORD_REPEAT">Repeat password</string>
+    <string name="LOGIN_NEWPASSWORD_HINT">Please enter your new password. It must be at least 8 characters long and contain letters and numbers.</string>
+    <string name="LOGIN_NEWPASSWORD_BUTTON_CANCEL">CANCEL</string>
+
+    <!-- Alert -->
+    <string name="LOGIN_ALERT_EMPTY_USERNAME">Please enter your username.</string>
+    <string name="LOGIN_ALERT_EMPTY_PASSWORD">Please enter your password.</string>
+    <string name="LOGIN_ALERT_LOGIN_UNSUCCESSFUL">Login unsuccessful.</string>
+    <string name="LOGIN_ALERT_FORGOT_PASSWORD_UNEQUAL">The passwords do not match</string>
+    <string name="DASHBOARD_ALERT_LOGOUT_UNSUCCESSFUL">Logout unsuccessful.</string>
+    <string name="GLOBAL_ALERT_FAILURE">Something went wrong.</string>
+    <string name="CONTACT_ALERT_EMPTY_NAME">Please enter the name of the contact.</string>
+    <string name="CONTACT_ALERT_EMPTY_PHONE">Please enter the phone number of the contact.</string>
+    <string name="CONTACT_ALERT_EMPTY_EMAIL">Please enter the email address of the contact.</string>
+    <string name="HISTORY_ALERT_NO_RESULTS">There is no data available yet.</string>
+
+    <!-- Menu -->
+    <string name="MENU_BUTTON_HOME">HOME SCREEN</string>
+    <string name="MENU_BUTTON_HISTORY">MEDICAL HISTORY</string>
+    <string name="MENU_BUTTON_CONTACTS">MY CONTACT</string>
+    <string name="MENU_BUTTON_LOGOUT">LOGOUT</string>
+    <string name="MENU_BUTTON_SUPPORT">TECHNICAL SUPPORT</string>
+    <string name="MENU_BUTTON_HELP">HELP</string>
+
+    <!-- Dashboard -->
+    <string name="DASHBOARD_BUTTON_GLUCOMETER">GLUCOMETER</string>
+    <string name="DASHBOARD_BUTTON_BLOOD_PRESSURE">BLOOD PRESSURE</string>
+    <string name="DASHBOARD_BUTTON_OXIMETER">PULSE OXIMETER</string>
+    <string name="DASHBOARD_BUTTON_ASSESSMENT">SELF ASSESSMENT</string>
+    <string name="DASHBOARD_BUTTON_APNEA">SLEEP APNEA</string>
+    <string name="DASHBOARD_BUTTON_WEIGHT">WEIGHT</string>
+    <string name="DASHBOARD_BUTTON_MEDICATION">MEDICATION MANAGEMENT</string>
+    <string name="DASHBOARD_BUTTON_TEMPERATURE">TEMPERATURE</string>
+    <string name="DASHBOARD_BUTTON_ECG">ECG</string>
+    <string name="DASHBOARD_BUTTON_SCHEDULE">SCHEDULE DOCTOR</string>
+    <string name="DASHBOARD_TEXT_LAST_USE">LAST USE:</string>
+
+    <!-- Function -->
+    <string name="FUNCTION_BUTTON_BACK_HOME">Back to Home</string>
+    <string name="FUNCTION_BUTTON_BACK">Back</string>
+    <string name="FUNCTION_BUTTON_SUPPORT">@string/MENU_BUTTON_SUPPORT</string>
+    <string name="FUNCTION_BUTTON_HELP">@string/MENU_BUTTON_HELP</string>
+    <string name="FUNCTION_BUTTON_AUTOMATIC">AUTOMATIC</string>
+    <string name="FUNCTION_BUTTON_MANUAL">MANUAL</string>
+    <string name="FUNCTION_BUTTON_TUTORIAL">TUTORIAL</string>
+    <string name="FUNCTION_TITLE_APPOINTMENT">Appointment</string>
+    <string name="FUNCTION_TITLE_ASSESSMENT">Self Assessment</string>
+    <string name="FUNCTION_TITLE_MEDICATION">Medication Management</string>
+    <string name="FUNCTION_TITLE_GLUCOMETER">Glucometer</string>
+    <string name="FUNCTION_TITLE_BLOOD_PRESSURE">Blood Pressure</string>
+    <string name="FUNCTION_TITLE_WEIGHT">Weight</string>
+    <string name="FUNCTION_TITLE_TEMPERATURE">Temperature</string>
+    <string name="FUNCTION_TEXT_GLUCOMETER">Blood Glucose Measurement</string>
+    <string name="FUNCTION_TEXT_BLOOD_PRESSURE">Blood Pressure Measurement</string>
+    <string name="FUNCTION_TEXT_WEIGHT">Weight Measurement</string>
+    <string name="FUNCTION_TEXT_TEMPERATURE">Temperature Measurement</string>
+    <string name="FUNCTION_TEXT_HINT_METHOD">
+        <![CDATA[
+        <b>Touch an icon</b> below to select your test method.
+        ]]>
+    </string>
+    <string name="FUNCTION_TEXT_HINT_AUTOMATIC">
+        <![CDATA[
+        <b>Select \'AUTOMATIC\' to use your device connected</b> to your tablet to take your measurement.
+        ]]>
+    </string>
+    <string name="FUNCTION_TEXT_HINT_MANUAL">
+        <![CDATA[
+        <b>Select \'MANUAL\' to enter your measurements by hand</b> without a device.
+        ]]>
+    </string>
+    <string name="FUNCTION_TEXT_HINT_TUTORIAL">
+        <![CDATA[
+        <b>Select \'TUTORIAL\' to learn</b> how to use your measurement device.
+        ]]>
+    </string>
+
+    <!-- Measurement -->
+    <string name="MEASUREMENT_TITLE_AUTOMATIC_GLUCOMETER">Automatic Glucometer</string>
+    <string name="MEASUREMENT_TITLE_AUTOMATIC_BLOOD_PRESSURE">Automatic Blood Pressure</string>
+    <string name="MEASUREMENT_TITLE_AUTOMATIC_WEIGHT">Automatic Weight</string>
+    <string name="MEASUREMENT_TITLE_MANUAL_GLUCOMETER">Manual Glucometer</string>
+    <string name="MEASUREMENT_TITLE_MANUAL_BLOOD_PRESSURE">Manual Blood Pressure</string>
+    <string name="MEASUREMENT_TITLE_MANUAL_WEIGHT">Manual Weight</string>
+    <string name="MEASUREMENT_TITLE_MANUAL_TEMPERATURE">Manual Temperature</string>
+    <string name="MEASUREMENT_BUTTON_NEXT">NEXT STEP</string>
+    <string name="MEASUREMENT_BUTTON_SEND">SEND DATA TO DOCTOR</string>
+    <string name="MEASUREMENT_DIALOG_BUTTON_OK">OK</string>
+    <string name="MEASUREMENT_DIALOG_TEXT_SENT">Result sent to doctor.</string>
+    <string name="MEASUREMENT_DIALOG_TEXT_FAIL">Failed to send result to doctor.</string>
+    <string name="MEASUREMENT_TEXT_BUTTON_HINT_NEXT">
+        <![CDATA[
+        <b>Press Next</b> when you are finished.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BUTTON_HINT_SEND">
+        <![CDATA[
+        <b>Press Send</b> when you are finished.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER">Glucose level</string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_UNIT">mg/dL</string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_UNIT_2">mmol/L</string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_1">
+        <![CDATA[
+        <b>Enter your blood glucose</b> level
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your blood glucose reading.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_AUTO_1">
+        <![CDATA[
+        <b>Measure your blood glucose</b> level
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_AUTO_2">
+        <![CDATA[
+        <b>Using the glucometer,</b> measure your blood glucose level until the value is shown on the glucometer.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_AUTO_3">
+        <![CDATA[
+        <b>Check your blood glucose</b> level
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_GLUCOMETER_HINT_AUTO_4">
+        <![CDATA[
+        <b>The measured glucose level</b> is shown in the box.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_SYSTOLIC">BP High to Systolic</string>
+    <string name="MEASUREMENT_TEXT_BP_SYSTOLIC_UNIT">mmHg</string>
+    <string name="MEASUREMENT_TEXT_BP_SYSTOLIC_HINT_1">
+        <![CDATA[
+        <b>Enter your high</b> blood pressure value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_SYSTOLIC_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your higher blood pressure reading (systolic).
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_DIASTOLIC">BP Low to Diastolic</string>
+    <string name="MEASUREMENT_TEXT_BP_DIASTOLIC_UNIT">mmHg</string>
+    <string name="MEASUREMENT_TEXT_BP_DIASTOLIC_HINT_1">
+        <![CDATA[
+        <b>Enter your low</b> blood pressure value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_DIASTOLIC_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your lower blood pressure reading (diastolic).
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_PULSE">Pulse</string>
+    <string name="MEASUREMENT_TEXT_BP_PULSE_UNIT">Beats/Min</string>
+    <string name="MEASUREMENT_TEXT_BP_PULSE_HINT_1">
+        <![CDATA[
+        <b>Enter your pulse</b> value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_PULSE_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your pulse reading.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_HINT_AUTO_1">
+        <![CDATA[
+        <b>Measure your blood pressure</b> values
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_HINT_AUTO_2">
+        <![CDATA[
+        <b>Using the blood pressure monitor,</b> measure your blood pressure until the values are shown on the monitor.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_HINT_AUTO_3">
+        <![CDATA[
+        <b>Check your blood pressure</b> values
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_BP_HINT_AUTO_4">
+        <![CDATA[
+        <b>The measured blood pressure values</b> are shown in the boxes.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT">Weight</string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_UNIT_KG">kg</string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_UNIT_LB">lb</string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_1">
+        <![CDATA[
+        <b>Enter your weight</b> value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your weight reading.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_AUTO_1">
+        <![CDATA[
+        <b>Measure your weight</b> value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_AUTO_2">
+        <![CDATA[
+        <b>Using the weight scale,</b> measure your weight until the value is shown on the scale.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_AUTO_3">
+        <![CDATA[
+        <b>Check your weight</b> value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_WEIGHT_HINT_AUTO_4">
+        <![CDATA[
+        <b>The measured weight value</b> is shown in the box.
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_TEMPERATURE">Temperature</string>
+    <string name="MEASUREMENT_TEXT_TEMPERATURE_UNIT_C">˚C</string>
+    <string name="MEASUREMENT_TEXT_TEMPERATURE_HINT_1">
+        <![CDATA[
+        <b>Enter your temperature</b> value
+        ]]>
+    </string>
+    <string name="MEASUREMENT_TEXT_TEMPERATURE_HINT_2">
+        <![CDATA[
+        <b>Using the keypad,</b> enter your temperature reading.
+        ]]>
+    </string>
+
+    <!-- Appointment -->
+    <string name="APPOINTMENT_BUTTON_REQUEST">REQUEST AN APPOINTMENT</string>
+    <string name="APPOINTMENT_BUTTON_SEND">SEND APPOINTMENT</string>
+    <string name="APPOINTMENT_BUTTON_ACCEPT">ACCEPT</string>
+    <string name="APPOINTMENT_BUTTON_CANCEL">CANCEL</string>
+    <string name="APPOINTMENT_BUTTON_REJECT">REJECT</string>
+    <string name="APPOINTMENT_TEXT_NO_APPOINTMENT">You currently have no appointment scheduled,</string>
+    <string name="APPOINTMENT_TEXT_NO_APPOINTMENT_HINT">Request an Appointment!</string>
+    <string name="APPOINTMENT_TEXT_YOUR_LIST">YOUR APPOINTMENT LIST</string>
+    <string name="APPOINTMENT_TITLE_LIST_STATUS">Status</string>
+    <string name="APPOINTMENT_TITLE_LIST_APPOINTMENT_DATE">Appointment</string>
+    <string name="APPOINTMENT_TITLE_LIST_DOCTOR">Doctor</string>
+    <string name="APPOINTMENT_TITLE_LIST_SEND_DATE">Sending Date</string>
+    <string name="APPOINTMENT_TEXT_LIST_STATUS_AWAITING_DOCTOR">Awaiting Doctor</string>
+    <string name="APPOINTMENT_TEXT_LIST_STATUS_AWAITING_PATIENT">Awaiting Patient</string>
+    <string name="APPOINTMENT_TEXT_LIST_STATUS_REJECTED">Rejected</string>
+    <string name="APPOINTMENT_TEXT_LIST_STATUS_ACCEPTED">Accepted</string>
+    <string name="APPOINTMENT_TEXT_LIST_STATUS_CANCELED">Canceled</string>
+    <string name="APPOINTMENT_TEXT_LIST_DATE_TODAY">Today</string>
+    <string name="APPOINTMENT_TEXT_LIST_DATE_DAY_AGO">Day ago</string>
+    <string name="APPOINTMENT_TEXT_SELECT_DOCTOR">Select Doctor</string>
+    <string name="APPOINTMENT_TEXT_SELECT_DOCTOR_HINT">Choose a doctor</string>
+    <string name="APPOINTMENT_TEXT_ADD_COMMENT">Add comment</string>
+    <string name="APPOINTMENT_TEXT_ADD_COMMENT_HINT">Please add comment</string>
+    <string name="APPOINTMENT_TEXT_RECOMMENDED">Recommended Appointment</string>
+    <string name="APPOINTMENT_TEXT_DOCTOR_COMMENT">Doctor comment:</string>
+
+    <!-- Medication -->
+    <string name="MEDICATION_MENU_BUTTON_TODAY">TODAY\'S MEDICATION</string>
+    <string name="MEDICATION_MENU_BUTTON_CURRENT">CURRENT MEDICATION</string>
+    <string name="MEDICATION_MENU_BUTTON_OLD">OLD MEDICATION</string>
+    <string name="MEDICATION_TEXT_HEADER_MEDICATION">Medication</string>
+    <string name="MEDICATION_TEXT_HEADER_TIMES">Times of Day</string>
+    <string name="MEDICATION_TEXT_HEADER_START_DATE">Start Date</string>
+    <string name="MEDICATION_TEXT_HEADER_END_DATE">End Date</string>
+    <string name="MEDICATION_BUTTON_TAKE_MEDICATION">TAKE MEDICATION</string>
+
+    <!-- Assessment -->
+    <string name="ASSESSMENT_BUTTON_PAIN">PAIN\nASSESSMENT</string>
+    <string name="ASSESSMENT_BUTTON_STRESS">STRESS</string>
+    <string name="ASSESSMENT_BUTTON_MOOD">MOOD</string>
+    <string name="ASSESSMENT_BUTTON_TREMOR_LEVEL">TREMOR\nLEVEL</string>
+    <string name="ASSESSMENT_TEXT_MAIN_1">Select the Self Assessment category</string>
+    <string name="ASSESSMENT_TEXT_MAIN_2">you wish to provide your Doctor at this time.</string>
+    <string name="ASSESSMENT_DIALOG_BUTTON_OK">OK</string>
+    <string name="ASSESSMENT_DIALOG_BUTTON_SEND">SEND TO DOCTOR</string>
+    <string name="ASSESSMENT_DIALOG_TEXT_SENT">Result sent to doctor.</string>
+    <string name="ASSESSMENT_DIALOG_TEXT_FAIL">Failed to send result to doctor.</string>
+    <string name="ASSESSMENT_DIALOG_HINT_1">Adjust the slider to indicate</string>
+    <string name="ASSESSMENT_DIALOG_HINT_2_PAIN">the intensity of your pain.</string>
+    <string name="ASSESSMENT_DIALOG_HINT_2_MOOD">the measure of your mood.</string>
+    <string name="ASSESSMENT_DIALOG_HINT_2_STRESS">your level of stress.</string>
+    <string name="ASSESSMENT_TEXT_NO_PAIN_HINT_1">Touch the part of the body</string>
+    <string name="ASSESSMENT_TEXT_NO_PAIN_HINT_2">where you feel pain.</string>
+    <string name="ASSESSMENT_TEXT_SEND_PAIN_HINT">If you finished your pain assessment, send it to your doctor with the \'SEND\' button.</string>
+    <string name="ASSESSMENT_BUTTON_SEND">SEND</string>
+    <string name="ASSESSMENT_TEXT_LEFT">Left</string>
+    <string name="ASSESSMENT_TEXT_RIGHT">Right</string>
+    <string name="ASSESSMENT_TEXT_TREMOR_STEP_1">Pick up</string>
+    <string name="ASSESSMENT_TEXT_TREMOR_STEP_2">Measure</string>
+    <string name="ASSESSMENT_TEXT_TREMOR_HINT_1">
+        <![CDATA[
+        <b>Pick up</b> the mobile device
+        ]]>
+    </string>
+    <string name="ASSESSMENT_TEXT_TREMOR_HINT_2">
+        <![CDATA[
+        <b>Hold the device</b> in your hands.
+        ]]>
+    </string>
+    <string name="ASSESSMENT_TEXT_TREMOR_HINT_3">
+        <![CDATA[
+        <b>Wait</b> for the counter.
+        ]]>
+    </string>
+    <string name="ASSESSMENT_TEXT_TREMOR_HINT_4">
+        <![CDATA[
+        <b>Do not release the device</b> until the counter ends.
+        ]]>
+    </string>
+
+    <!-- History -->
+    <string name="HISTORY_TEXT_SELECTOR_TITLE">
+        <![CDATA[
+        <b>Select</b> medical history
+        ]]>
+    </string>
+    <string name="HISTORY_BUTTON_GLUCOMETER">GLUCOMETER</string>
+    <string name="HISTORY_BUTTON_BLOOD_PRESSURE">BLOOD\nPRESSURE</string>
+    <string name="HISTORY_BUTTON_OXIMETER">PULSE\nOXIMETER</string>
+    <string name="HISTORY_BUTTON_ASSESSMENT">SELF\nASSESSMENT</string>
+    <string name="HISTORY_BUTTON_APNEA">SLEEP\nAPNEA</string>
+    <string name="HISTORY_BUTTON_WEIGHT">WEIGHT</string>
+    <string name="HISTORY_BUTTON_MEDICATION">MEDICATION\nMANAGEMENT</string>
+    <string name="HISTORY_BUTTON_TEMPERATURE">TEMPERATURE</string>
+    <string name="HISTORY_BUTTON_ECG">ECG</string>
+    <string name="HISTORY_BUTTON_DAY">1 DAY</string>
+    <string name="HISTORY_BUTTON_WEEK">1 WEEK</string>
+    <string name="HISTORY_BUTTON_MONTH">1 MONTH</string>
+    <string name="HISTORY_TITLE_GLUCOMETER">Glucometer History</string>
+    <string name="HISTORY_TITLE_BLOOD_PRESSURE">Blood Pressure History</string>
+    <string name="HISTORY_TITLE_OXIMETER">Pulse Oximeter History</string>
+    <string name="HISTORY_TITLE_ASSESSMENT">Self Assessment History</string>
+    <string name="HISTORY_TITLE_APNEA">Sleep Apnea History</string>
+    <string name="HISTORY_TITLE_WEIGHT">Weight History</string>
+    <string name="HISTORY_TITLE_MEDICATION">Medication Management History</string>
+    <string name="HISTORY_TITLE_TEMPERATURE">Temperature History</string>
+    <string name="HISTORY_TITLE_ECG">ECG History</string>
+    <string name="HISTORY_TEXT_LIST_DATE">Date</string>
+    <string name="HISTORY_TEXT_LIST_METHOD">Recording method</string>
+    <string name="HISTORY_TEXT_LIST_AUTOMATIC">Automatic</string>
+    <string name="HISTORY_TEXT_LIST_MANUAL">Manual</string>
+    <string name="HISTORY_TEXT_LIST_ECG_VALUES">Intervals</string>
+
+    <!-- Contacts -->
+    <string name="CONTACTS_BUTTON_ADD_CONTACT">ADD CONTACT</string>
+    <string name="CONTACTS_BUTTON_NEW_CONTACT">NEW CONTACT</string>
+    <string name="CONTACTS_BUTTON_CALL">CALL</string>
+    <string name="CONTACTS_BUTTON_EDIT">Edit</string>
+    <string name="CONTACTS_BUTTON_SAVE_CONTACT">SAVE CONTACT</string>
+    <string name="CONTACTS_TEXT_NO_CONTACT">Currently there is no contact,</string>
+    <string name="CONTACTS_TEXT_NO_CONTACT_HINT">please add a contact person.</string>
+    <string name="CONTACTS_TEXT_YOUR_LIST">MY CONTACT LIST</string>
+    <string name="CONTACTS_TITLE_LIST_NAME">Name</string>
+    <string name="CONTACTS_TITLE_LIST_NUMBER">Phone Number</string>
+    <string name="CONTACTS_TEXT_NAME">Contact Name</string>
+    <string name="CONTACTS_TEXT_NAME_HINT">Please add Contact name</string>
+    <string name="CONTACTS_TEXT_PHONE">Phone</string>
+    <string name="CONTACTS_TEXT_PHONE_HINT">Please add Phone number</string>
+    <string name="CONTACTS_TEXT_EMAIL">E-mail</string>
+    <string name="CONTACTS_TEXT_EMAIL_HINT">Please add E-mail address</string>
+    <string name="CONTACTS_TEXT_PHOTO">Photo</string>
+    <string name="CONTACTS_TEXT_RELATIONSHIP">Relationship</string>
+    <string name="CONTACTS_TEXT_NOTIFICATION_CHECKBOX">Send notifications by e-mail.</string>
+    <string name="CONTACTS_TITLE_ADD_CONTACT">Add new Contact</string>
+    <string name="CONTACTS_DIALOG_TEXT_PIC">Please choose a method</string>
+    <string name="CONTACTS_DIALOG_BUTTON_GALLERY">Gallery</string>
+    <string name="CONTACTS_DIALOG_BUTTON_CAMERA">Camera</string>
+</resources>

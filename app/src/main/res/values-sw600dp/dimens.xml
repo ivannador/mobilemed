@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <dimen name="radius_small">7dp</dimen>
+    <dimen name="radius_button">8dp</dimen>
+    <dimen name="radius_button_circular">25dp</dimen>
+    <dimen name="radius_seekbar">7dp</dimen>
+    <dimen name="radius_progressbar">10dp</dimen>
+
+    <dimen name="margin_xxsmall">4dp</dimen>
+    <dimen name="margin_xsmall">8dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="margin_xnormal">20dp</dimen>
+    <dimen name="margin_normal">24dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+    <dimen name="margin_xxlarge">56dp</dimen>
+    <dimen name="margin_xxxlarge">64dp</dimen>
+
+    <dimen name="padding_xxsmall">4dp</dimen>
+    <dimen name="padding_xsmall">8dp</dimen>
+    <dimen name="padding_small">16dp</dimen>
+    <dimen name="padding_normal">24dp</dimen>
+    <dimen name="padding_big">32dp</dimen>
+    <dimen name="padding_large">40dp</dimen>
+    <dimen name="padding_xlarge">48dp</dimen>
+    <dimen name="padding_xxlarge">56dp</dimen>
+    <dimen name="padding_xxxlarge">64dp</dimen>
+
+    <dimen name="margin_launch_main_item_vertical">250dp</dimen>
+    <dimen name="margin_login_item">@dimen/margin_xlarge</dimen>
+    <dimen name="margin_dialog_vertical">72dp</dimen>
+
+    <dimen name="padding_button_text_vertical">@dimen/padding_large</dimen>
+
+    <dimen name="padding_button_numberpad_stroke">-3dp</dimen>
+    <dimen name="padding_button_numberpad_stroke_bottom">2dp</dimen>
+</resources>

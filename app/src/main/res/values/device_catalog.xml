@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="BT_MAC_WEIGHTSCALE">INSERT_VALUE_HERE</string>
+    <string name="BT_MAC_BPMONITOR">INSERT_VALUE_HERE</string>
+    <string name="BT_MAC_GLUCOMETER">INSERT_VALUE_HERE</string>
+</resources>

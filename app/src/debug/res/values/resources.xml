@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AWS-->
+    <string name="AWS_IDENTITY_POOL_ID">INSERT_VALUE_HERE</string>
+    <string name="AWS_COGNITO_REGION">INSERT_VALUE_HERE</string>
+
+    <string name="AWS_SNS_PLATFORMAPPLICATION_ARN">INSERT_VALUE_HERE</string>
+    <string name="AWS_SNS_SERVICE_REGION">INSERT_VALUE_HERE</string>
+
+    <string name="AWS_USER_POOL_ID">INSERT_VALUE_HERE</string>
+    <string name="AWS_APP_CLIENT_ID">INSERT_VALUE_HERE</string>
+    <string name="AWS_APP_CLIENT_SECRET">INSERT_VALUE_HERE</string>
+
+    <string name="AWS_COGNITO_IDENTITY_PROVIDER">INSERT_VALUE_HERE</string>
+
+    <string name="AWS_S3_REGION">INSERT_VALUE_HERE</string>
+    <string name="AWS_S3_BUCKET_MAIN">INSERT_VALUE_HERE</string>
+    <string name="AWS_S3_BUCKET_ECG">INSERT_VALUE_HERE</string>
+
+    <!-- Realm -->
+    <string name="CONFIGURATION_REALM">configuration.realm</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorBlueMedium</color>
+    <color name="colorPrimaryDark">@color/colorBlueDark</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="windowBackground">@color/colorWhiteOff</color>
+    <color name="launchWindowBackground">@color/colorWhiteBluish</color>
+
+    <color name="colorBlueLight">#5cc3f3</color>
+    <color name="colorBlueMediumFocused">#223A55</color>
+    <color name="colorBlueMedium">#082a55</color>
+    <color name="colorBlueDark">#041629</color>
+
+    <color name="colorGreyExtraLight">#efefef</color>
+    <color name="colorGreyLight">#c8c8c8</color>
+    <color name="colorGreyMediumLight">#dadde4</color>
+    <color name="colorGreyMediumLightOff">#c3ced9</color>
+    <color name="colorGreyInactive">#989898</color>
+    <color name="colorGreyInactiveOther">#868686</color>
+    <color name="colorGreyMedium">#262626</color>
+
+    <color name="colorGreenLight">#7abb31</color>
+
+    <color name="colorRedLight">#f5cdc8</color>
+    <color name="colorRedMedium">#e73428</color>
+
+    <color name="colorWhiteOff">#f9f9f9</color>
+    <color name="colorWhiteBluish">#edf2f6</color>
+    <color name="colorWhiteHalfOpaque">#88FFFFFF</color>
+    <color name="colorWhiteTransparent">#44FFFFFF</color>
+
+    <color name="colorPainLevel0">#287a35</color>
+    <color name="colorPainLevel1">#358433</color>
+    <color name="colorPainLevel2">#7bb227</color>
+    <color name="colorPainLevel3">#c5dd1f</color>
+    <color name="colorPainLevel4">#f1f41a</color>
+    <color name="colorPainLevel5">#ee9f10</color>
+    <color name="colorPainLevel6">#ee680a</color>
+    <color name="colorPainLevel7">#e54207</color>
+    <color name="colorPainLevel8">#d72206</color>
+    <color name="colorPainLevel9">#c80005</color>
+    <color name="colorPainLevel10">#c9000d</color>
+</resources>

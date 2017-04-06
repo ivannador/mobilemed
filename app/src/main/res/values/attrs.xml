@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FunctionButton">
+        <attr name="image" format="integer"/>
+        <attr name="imageTopMargin" format="dimension"/>
+        <attr name="imageLeftMargin" format="dimension"/>
+        <attr name="imageRightMargin" format="dimension"/>
+        <attr name="imageBottomMargin" format="dimension"/>
+        <attr name="titleLabel" format="string"/>
+        <attr name="lastUsed" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="lastUsedTextSize" format="dimension"/>
+        <attr name="lastUsedTextBottomMargin" format="dimension"/>
+        <attr name="lastUsedTextVisible" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberPad">
+        <attr name="numberPadStyle" format="reference"/>
+        <attr name="showDotButton" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="StepIndicator">
+        <attr name="stepCount" format="enum">
+            <enum name="single" value="1"/>
+            <enum name="dual" value="2"/>
+            <enum name="triple" value="3"/>
+            <enum name="quadruple" value="4"/>
+        </attr>
+        <attr name="firstStepLabel" format="string"/>
+        <attr name="secondStepLabel" format="string"/>
+        <attr name="thirdStepLabel" format="string"/>
+        <attr name="fourthStepLabel" format="string"/>
+        <attr name="inactiveColor" format="color"/>
+        <attr name="activeColor" format="color"/>
+        <attr name="finishedColor" format="color"/>
+        <attr name="nodeTextColor" format="color"/>
+        <attr name="labelTextHeight" format="dimension"/>
+        <attr name="nodeSize" format="dimension"/>
+        <attr name="nodeLabelVerticalPadding" format="dimension"/>
+    </declare-styleable>
+
+</resources>
